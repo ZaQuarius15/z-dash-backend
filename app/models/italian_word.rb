@@ -1,0 +1,2 @@
+class ItalianWord < ApplicationRecord
+end
