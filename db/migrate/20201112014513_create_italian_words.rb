@@ -4,7 +4,7 @@ class CreateItalianWords < ActiveRecord::Migration[6.0]
       t.string :word
       t.string :meaning
       t.string :pos
-      t.integer :score
+      t.integer :score, :default => 0
 
       t.timestamps
     end
